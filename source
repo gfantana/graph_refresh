@@ -1,0 +1,77 @@
+<Module>
+<ModulePrefs title="__MSG_default_bar_title__" description="__MSG_bar_description__" author="Google Engineering" author_affiliation="Google Inc." author_email="visualization.api+image-bar-chart@gmail.com" screenshot="https://www.google.com/ig/modules/image-bar-chart.png" thumbnail="https://www.google.com/ig/modules/image-bar-chart-thm.png">
+<Require feature="settitle"/>
+<Require feature="idi"/>
+<Require feature="locked-domain"/>
+<Locale messages="https://www.google.com/ig/modules/imagechart_content/en_ALL.xml"/>
+<Locale lang="ar" messages="https://www.google.com/ig/modules/imagechart_content/ar_ALL.xml" language_direction="rtl"/>
+<Locale lang="bg" messages="https://www.google.com/ig/modules/imagechart_content/bg_ALL.xml"/>
+<Locale lang="ca" messages="https://www.google.com/ig/modules/imagechart_content/ca_ALL.xml"/>
+<Locale lang="cs" messages="https://www.google.com/ig/modules/imagechart_content/cs_ALL.xml"/>
+<Locale lang="da" messages="https://www.google.com/ig/modules/imagechart_content/da_ALL.xml"/>
+<Locale lang="de" messages="https://www.google.com/ig/modules/imagechart_content/de_ALL.xml"/>
+<Locale lang="el" messages="https://www.google.com/ig/modules/imagechart_content/el_ALL.xml"/>
+<Locale lang="en-GB" messages="https://www.google.com/ig/modules/imagechart_content/en_GB.xml"/>
+<Locale lang="es" messages="https://www.google.com/ig/modules/imagechart_content/es_ALL.xml"/>
+<Locale lang="et" messages="https://www.google.com/ig/modules/imagechart_content/et_ALL.xml"/>
+<Locale lang="fi" messages="https://www.google.com/ig/modules/imagechart_content/fi_ALL.xml"/>
+<Locale lang="fr" messages="https://www.google.com/ig/modules/imagechart_content/fr_ALL.xml"/>
+<Locale lang="hi" messages="https://www.google.com/ig/modules/imagechart_content/hi_ALL.xml"/>
+<Locale lang="hr" messages="https://www.google.com/ig/modules/imagechart_content/hr_ALL.xml"/>
+<Locale lang="hu" messages="https://www.google.com/ig/modules/imagechart_content/hu_ALL.xml"/>
+<Locale lang="hy" messages="https://www.google.com/ig/modules/imagechart_content/hy_ALL.xml"/>
+<Locale lang="id" messages="https://www.google.com/ig/modules/imagechart_content/id_ALL.xml"/>
+<Locale lang="is" messages="https://www.google.com/ig/modules/imagechart_content/is_ALL.xml"/>
+<Locale lang="it" messages="https://www.google.com/ig/modules/imagechart_content/it_ALL.xml"/>
+<Locale lang="iw" messages="https://www.google.com/ig/modules/imagechart_content/iw_ALL.xml" language_direction="rtl"/>
+<Locale lang="ja" messages="https://www.google.com/ig/modules/imagechart_content/ja_ALL.xml"/>
+<Locale lang="ko" messages="https://www.google.com/ig/modules/imagechart_content/ko_ALL.xml"/>
+<Locale lang="lt" messages="https://www.google.com/ig/modules/imagechart_content/lt_ALL.xml"/>
+<Locale lang="lv" messages="https://www.google.com/ig/modules/imagechart_content/lv_ALL.xml"/>
+<Locale lang="ms" messages="https://www.google.com/ig/modules/imagechart_content/ms_ALL.xml"/>
+<Locale lang="nl" messages="https://www.google.com/ig/modules/imagechart_content/nl_ALL.xml"/>
+<Locale lang="no" messages="https://www.google.com/ig/modules/imagechart_content/no_ALL.xml"/>
+<Locale lang="pl" messages="https://www.google.com/ig/modules/imagechart_content/pl_ALL.xml"/>
+<Locale lang="pt-BR" messages="https://www.google.com/ig/modules/imagechart_content/pt_BR.xml"/>
+<Locale lang="pt-PT" messages="https://www.google.com/ig/modules/imagechart_content/pt_PT.xml"/>
+<Locale lang="ro" messages="https://www.google.com/ig/modules/imagechart_content/ro_ALL.xml"/>
+<Locale lang="ru" messages="https://www.google.com/ig/modules/imagechart_content/ru_ALL.xml"/>
+<Locale lang="sl" messages="https://www.google.com/ig/modules/imagechart_content/sl_ALL.xml"/>
+<Locale lang="sk" messages="https://www.google.com/ig/modules/imagechart_content/sk_ALL.xml"/>
+<Locale lang="sr" messages="https://www.google.com/ig/modules/imagechart_content/sr_ALL.xml"/>
+<Locale lang="sv" messages="https://www.google.com/ig/modules/imagechart_content/sv_ALL.xml"/>
+<Locale lang="th" messages="https://www.google.com/ig/modules/imagechart_content/th_ALL.xml"/>
+<Locale lang="tl" messages="https://www.google.com/ig/modules/imagechart_content/tl_ALL.xml"/>
+<Locale lang="tr" messages="https://www.google.com/ig/modules/imagechart_content/tr_ALL.xml"/>
+<Locale lang="uk" messages="https://www.google.com/ig/modules/imagechart_content/uk_ALL.xml"/>
+<Locale lang="vi" messages="https://www.google.com/ig/modules/imagechart_content/vi_ALL.xml"/>
+<Locale lang="zh-CN" messages="https://www.google.com/ig/modules/imagechart_content/zh_CN.xml"/>
+<Locale lang="zh-TW" messages="https://www.google.com/ig/modules/imagechart_content/zh_TW.xml"/>
+</ModulePrefs>
+<UserPref name="_table_query_url" display_name="__MSG_tablequeryurl__" required="true"/>
+<UserPref name="title" display_name="__MSG_title__" required="false"/>
+<UserPref name="minvalue" display_name="__MSG_minvalue__" required="false"/>
+<UserPref name="maxvalue" display_name="__MSG_maxvalue__" required="false"/>
+<UserPref name="showvaluelabels" display_name="__MSG_showvaluelabels__" default_value="true" datatype="bool"/>
+<UserPref name="showcategorylabels" display_name="__MSG_showcategorylabels__" default_value="true" datatype="bool"/>
+<UserPref name="vertical" display_name="__MSG_vertical__" default_value="false" datatype="bool"/>
+<UserPref name="stacked" display_name="__MSG_stacked__" default_value="true" datatype="bool"/>
+<UserPref name="legend" display_name="__MSG_legend__" default_value="right" datatype="enum" required="false">
+<EnumValue value="right" display_value="__MSG_right__"/>
+<EnumValue value="left" display_value="__MSG_left__"/>
+<EnumValue value="top" display_value="__MSG_top__"/>
+<EnumValue value="bottom" display_value="__MSG_bottom__"/>
+<EnumValue value="none" display_value="__MSG_nolegend__"/>
+</UserPref>
+<UserPref name="_table_query_refresh_interval" display_name="__MSG_tablequeryrefreshinterval__" default_value="300" datatype="enum" required="false">
+<EnumValue value="0" display_value="__MSG_never__"/>
+<EnumValue value="60" display_value="1"/>
+<EnumValue value="300" display_value="5"/>
+<EnumValue value="1800" display_value="30"/>
+</UserPref>
+<Content type="html">
+<![CDATA[
+<div id="loading"><img src="https://www.google.com/ig/images/spinner.gif" /></div> <div id="chart"></div> <script src="https://www.google.com/jsapi" type="text/javascript"></script> <script type="text/javascript"> var prefs = new _IG_Prefs(); var gadgetHelper; _IG_RegisterOnloadHandler(loadVisualizationAPI); function loadVisualizationAPI() { google.load('visualization', '1', {packages: ['imagebarchart']}); google.setOnLoadCallback(initialize); }; function initialize() { var title = prefs.getString('title'); if (title) { _IG_SetTitle(title); } gadgetHelper = new google.visualization.GadgetHelper(); var query = gadgetHelper.createQueryFromPrefs(prefs); query.send(responseHandler); }; function responseHandler(response) { document.getElementById('loading').style.display = 'none'; if (!gadgetHelper.validateResponse(response)) { // Default error handling was done, just leave. return; } var container = document.getElementById('chart'); var visualizationObject = new google.visualization.ImageBarChart(container); var dataTable = response.getDataTable(); var minString = prefs.getString('minvalue'); var maxString = prefs.getString('maxvalue'); var vertical = prefs.getBool('vertical'); // default for isStacked is true var stacked = !prefs.getString('stacked') || prefs.getBool('stacked') var options = { width: document.body.clientWidth, height: document.body.clientHeight, min: minString && parseFloat(minString), max: maxString && parseFloat(maxString), showValueLabels: !prefs.getString('showvaluelabels') || prefs.getBool('showvaluelabels'), showCategoryLabels: !prefs.getString('showcategorylabels') || prefs.getBool('showcategorylabels'), legend: prefs.getString('legend'), isStacked: stacked, isVertical: vertical }; visualizationObject.draw(dataTable, options); }; </script>
+]]>
+</Content>
+</Module>
